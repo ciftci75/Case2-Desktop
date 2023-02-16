@@ -1,0 +1,170 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-gray: hsl(0, 0%, 55%);
+    --color-dark-gray: hsl(0, 0%, 41%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    width: 100%;
+    height: 600px;
+}
+
+.header-left {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.navbar ul {
+    list-style: none;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    margin-left: 55%;
+}
+
+.navbar ul li {
+    padding-right: 5%;
+    margin-top: -35px;
+    font-family: "Alata";
+}
+
+.header-main {
+    border: 1px solid var(--color-white);
+    width: 550px;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 230px;
+    align-items: center;
+}
+
+.header-main h1 {
+    color: var(--color-white);
+    padding-left: 5%;
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    font-size: 60px;
+}
+
+
+.article-hero img {
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.article-title h3 {
+    text-transform: uppercase;
+    padding-left: 55%;
+    position: relative;
+    top: -200px;
+    color: var(--color-dark-gray);
+    font-size: 30px;
+    font-family: "Josefin Sans";
+}
+
+.article-p p {
+    color: var(--color-dark-gray);
+    font-family: "Josefin Sans";
+    padding-left: 55%;
+    position: relative;
+    top: -200px;
+}
+
+.image-title h2 {
+    color: var(--color-black);
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    margin-left: 13%;
+}
+
+.image-button button {
+    margin-left: 77%;
+    position: relative;
+    top: -35px;
+    border: 1px solid var(--color-black);
+    width: 100px;
+    height: 25px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    color: var(--color-black);
+}
+
+.image-first li {
+    list-style: none;
+    margin-left: 13%;
+
+}
+
+.image-first img {
+    float: left;
+    padding-right:2.5%;
+}
+
+.image-second li {
+    list-style: none;
+    margin-left: 13%;
+}
+
+.image-second img {
+    float: left;
+    padding-right:2.5%;
+    padding-top: 3%;
+}
+
+.footer {
+    margin-top: 70%;
+    background-color: var(--color-black);
+    height: 150px;
+}
+
+.footer-left {
+    padding-left: 13%;
+    padding-top: 2%;
+}
+
+.footer-icons {
+    padding-left: 79%;
+    position: relative;
+    top: -30px;
+}
+
+.footer-icons a {
+    color: var(--color-white);
+}
+
+.footer-bottom {
+    color: var(--color-white);
+}
+
+.footer-bottom ul {
+    margin-left: 13%;
+    position: relative;
+    top: 15px;
+    font-family: "Josefin Sans";
+}
+
+
+.footer-bottom ul li {
+    display: inline-block;
+}
+
+.footer-desc {
+    color: var(--color-white);
+    margin-left: 68%;
+}
+
+
+
+
